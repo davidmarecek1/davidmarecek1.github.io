@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>David Mareček — americká zahraniční politika a transatlantické vztahy</title>
+<meta name="description" content="David Mareček, odborník na americkou zahraniční politiku a transatlantické vztahy, Metropolitní univerzita Praha. Komentář pro média česky a anglicky.">
+<meta name="author" content="David Mareček">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="David Mareček — americká zahraniční politika a transatlantické vztahy">
+<meta property="og:description" content="Odborný asistent, Katedra mezinárodních vztahů a evropských studií, Metropolitní univerzita Praha. Ontologická bezpečnost, transatlantické vztahy, energetická bezpečnost.">
+<meta property="og:locale" content="cs_CZ">
+<meta property="og:locale:alternate" content="en_GB">
+<!-- DOPLŇTE po registraci domény: -->
+<!-- <link rel="canonical" href="https://VASE-DOMENA.cz/"> -->
+<!-- <meta property="og:url" content="https://VASE-DOMENA.cz/"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style id="sheet">
+:root{
+  --ground:#F7F7F5;
+  --surface:#FFFFFF;
+  --sunk:#EDEEEB;
+  --ink:#17191A;
+  --muted:#5D6265;
+  --faint:#8B9095;
+  --line:#E0E1DD;
+  --hair:#EAEBE7;
+  --accent:#23496E;
+  --accent-soft:#E9EEF4;
+  --focus:#23496E;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#121416;
+    --surface:#191C1F;
+    --sunk:#1F2327;
+    --ink:#E8E9EA;
+    --muted:#9AA0A5;
+    --faint:#6F767C;
+    --line:#282C30;
+    --hair:#22262A;
+    --accent:#8DB3DC;
+    --accent-soft:#1B2A3A;
+    --focus:#8DB3DC;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#121416;
+  --surface:#191C1F;
+  --sunk:#1F2327;
+  --ink:#E8E9EA;
+  --muted:#9AA0A5;
+  --faint:#6F767C;
+  --line:#282C30;
+  --hair:#22262A;
+  --accent:#8DB3DC;
+  --accent-soft:#1B2A3A;
+  --focus:#8DB3DC;
+}
+
+*{box-sizing:border-box}
+[hidden]{display:none !important}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--ground);color:var(--ink);
+  font-family:"Source Serif 4",Georgia,"Times New Roman",serif;
+  font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased;
+}
+a{color:var(--accent);text-underline-offset:2px;text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--focus);outline-offset:3px;border-radius:2px}
+
+.shell{max-width:1120px;margin:0 auto;padding:0 28px 80px;display:grid;grid-template-columns:1fr;gap:0}
+@media(min-width:900px){
+  .shell{grid-template-columns:268px 1fr;gap:0 64px;padding-top:8px}
+  .rail{position:sticky;top:0;align-self:start;max-height:100vh;overflow-y:auto;padding:52px 0 40px}
+  main{padding:52px 0 0;min-width:0}
+}
+
+/* ---------- rail ---------- */
+.rail{padding:44px 0 8px}
+.mono{
+  font-family:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+  font-size:11.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+  font-weight:500;
+}
+.mark{
+  width:58px;height:58px;border-radius:50%;background:var(--accent-soft);
+  color:var(--accent);display:flex;align-items:center;justify-content:center;
+  font-family:"Source Serif 4",Georgia,serif;font-size:21px;font-weight:600;letter-spacing:.02em;
+  margin-bottom:18px;
+}
+/* Fotografii vložíte takto (nahradí monogram):
+   <img class="mark" src="foto.jpg" alt="David Mareček" style="object-fit:cover"> */
+.rail h1{
+  font-size:27px;font-weight:600;line-height:1.15;margin:0 0 8px;letter-spacing:-.012em;
+}
+.rail .role{margin:0 0 4px;font-size:15.5px;line-height:1.45;color:var(--muted)}
+.rail .inst{margin:0;font-size:14px;line-height:1.45;color:var(--faint)}
+.rail hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+.contact{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:7px}
+.contact li{font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:14px;line-height:1.45}
+.contact .k{display:block;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);font-weight:500}
+nav.toc{margin-top:22px;display:none}
+@media(min-width:900px){nav.toc{display:block}}
+nav.toc ol{list-style:none;padding:0;margin:0;counter-reset:s;display:flex;flex-direction:column;gap:5px}
+nav.toc a{
+  font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:14px;
+  color:var(--muted);text-decoration:none;display:block;padding:2px 0;
+}
+nav.toc a:hover{color:var(--accent)}
+.langbar{display:flex;gap:6px;margin-top:24px}
+.langbar button{
+  font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:12px;font-weight:500;
+  letter-spacing:.06em;text-transform:uppercase;padding:5px 11px;cursor:pointer;
+  background:transparent;border:1px solid var(--line);color:var(--muted);border-radius:2px;
+}
+.langbar button[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--ground)}
+
+/* ---------- main ---------- */
+main section{padding:0 0 46px}
+main section + section{border-top:1px solid var(--hair);padding-top:42px}
+h2{
+  font-family:"IBM Plex Sans",system-ui,sans-serif;
+  font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--faint);
+  font-weight:600;margin:0 0 18px;
+}
+h3{font-size:19px;font-weight:600;margin:0 0 6px;letter-spacing:-.008em}
+p{margin:0 0 16px;max-width:64ch}
+p:last-child{margin-bottom:0}
+.lead{font-size:19.5px;line-height:1.55}
+.pull{
+  border-left:2px solid var(--accent);padding-left:20px;margin:26px 0 0;
+  font-size:18px;line-height:1.6;
+}
+.pull p{max-width:58ch}
+
+/* press panel */
+.press{
+  background:var(--surface);border:1px solid var(--line);border-radius:3px;
+  padding:24px 26px;margin-top:4px;
+}
+.press .row{display:grid;grid-template-columns:1fr;gap:18px}
+@media(min-width:640px){.press .row{grid-template-columns:1fr 1fr;gap:22px 34px}}
+.press h4{
+  font-family:"IBM Plex Sans",system-ui,sans-serif;
+  font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+  font-weight:600;margin:0 0 7px;
+}
+.press ul{margin:0;padding-left:17px;font-size:15.5px;line-height:1.55}
+.press li{margin:3px 0}
+.press li::marker{color:var(--faint)}
+.press .big{
+  font-family:"IBM Plex Sans",system-ui,sans-serif;
+  font-size:19px;font-weight:600;letter-spacing:-.01em;margin:0;
+}
+.press .big a{text-decoration:none}
+.press .note{font-size:14.5px;color:var(--muted);margin:6px 0 0}
+.labelbox{
+  margin-top:22px;padding-top:18px;border-top:1px solid var(--hair);
+  display:flex;flex-wrap:wrap;align-items:flex-start;gap:12px;
+}
+.labelbox code{
+  flex:1 1 300px;font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:14.5px;
+  background:var(--sunk);padding:10px 13px;border-radius:2px;line-height:1.5;color:var(--ink);
+}
+.labelbox button{
+  font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:12px;font-weight:500;
+  letter-spacing:.06em;text-transform:uppercase;padding:9px 14px;cursor:pointer;
+  background:transparent;border:1px solid var(--line);color:var(--muted);border-radius:2px;
+}
+.labelbox button:hover{border-color:var(--accent);color:var(--accent)}
+
+/* research strands */
+.strands{display:grid;grid-template-columns:1fr;gap:0}
+.strand{padding:16px 0;border-bottom:1px solid var(--hair)}
+.strand:first-child{padding-top:0}
+.strand:last-child{border-bottom:0;padding-bottom:0}
+.strand p{margin:4px 0 0;color:var(--muted);font-size:16px}
+
+/* publications */
+.pubs{list-style:none;padding:0;margin:0}
+.pubs li{padding:14px 0;border-bottom:1px solid var(--hair);max-width:70ch}
+.pubs li:last-child{border-bottom:0}
+.pubs .cite{margin:0}
+.pubs .cite em{font-style:italic}
+.status{
+  display:inline-block;font-family:"IBM Plex Sans",system-ui,sans-serif;
+  font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:500;
+  color:var(--accent);background:var(--accent-soft);padding:2px 7px;border-radius:2px;
+  margin-bottom:6px;
+}
+.todo{color:var(--faint);font-style:italic}
+
+/* media log */
+.medialist{list-style:none;padding:0;margin:0}
+.medialist li{
+  display:grid;grid-template-columns:82px 1fr;gap:4px 16px;
+  padding:11px 0;border-bottom:1px solid var(--hair);align-items:baseline;
+}
+.medialist li:last-child{border-bottom:0}
+.medialist .d{
+  font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:12.5px;
+  color:var(--faint);font-variant-numeric:tabular-nums;white-space:nowrap;
+}
+.medialist .t{font-size:16px;line-height:1.45}
+.medialist .o{
+  font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:12.5px;color:var(--muted);
+  display:block;margin-top:2px;
+}
+@media(max-width:520px){
+  .medialist li{grid-template-columns:1fr}
+}
+
+footer{
+  border-top:1px solid var(--line);margin-top:8px;padding:22px 0 0;
+  font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:12.5px;
+  color:var(--faint);line-height:1.7;
+}
+@media (prefers-reduced-motion:reduce){*{transition:none !important}}
+</style>
+</head>
+<body>
+
+<div class="shell">
+
+<aside class="rail">
+  <div class="mark" aria-hidden="true">DM</div>
+  <h1>David&nbsp;Mareček</h1>
+  <p class="role" data-lang="cs">Odborník na americkou zahraniční politiku a transatlantické vztahy</p>
+  <p class="role" data-lang="en" hidden>Expert on US foreign policy and transatlantic relations</p>
+  <p class="inst" data-lang="cs">Katedra mezinárodních vztahů a evropských studií, Metropolitní univerzita Praha</p>
+  <p class="inst" data-lang="en" hidden>Department of International Relations and European Studies, Metropolitan University Prague</p>
+
+  <hr>
+
+  <ul class="contact">
+    <li><span class="k">E-mail</span><a href="mailto:david.marecek@mup.cz">david.marecek@mup.cz</a></li>
+    <!-- DOPLŇTE telefon: pro novináře je to nejdůležitější údaj na celé stránce -->
+    <li><span class="k">Telefon</span><a href="tel:+420000000000">+420 000 000 000</a></li>
+    <li><span class="k">ORCID</span><a href="https://orcid.org/0000-0002-0249-5639">0000-0002-0249-5639</a></li>
+    <!-- DOPLŇTE odkazy: -->
+    <li><span class="k">Profily</span><a href="https://www.mup.cz/o-univerzite/katedry/katedra-mezinarodnich-vztahu-a-evropskych-studii/">MUP</a> · <a href="https://cz.linkedin.com/in/davidmarecek1">LinkedIn</a> · <a href="#">Google&nbsp;Scholar</a></li>
+  </ul>
+
+  <nav class="toc" aria-label="Obsah">
+    <ol>
+      <li><a href="#pro-novinare" data-lang="cs">Pro novináře</a><a href="#pro-novinare" data-lang="en" hidden>For journalists</a></li>
+      <li><a href="#vyzkum" data-lang="cs">Výzkum</a><a href="#vyzkum" data-lang="en" hidden>Research</a></li>
+      <li><a href="#publikace" data-lang="cs">Publikace</a><a href="#publikace" data-lang="en" hidden>Publications</a></li>
+      <li><a href="#media" data-lang="cs">Média</a><a href="#media" data-lang="en" hidden>Media</a></li>
+      <li><a href="#vyuka" data-lang="cs">Výuka</a><a href="#vyuka" data-lang="en" hidden>Teaching</a></li>
+    </ol>
+  </nav>
+
+  <div class="langbar">
+    <button type="button" id="btn-cs" aria-pressed="true">Česky</button>
+    <button type="button" id="btn-en" aria-pressed="false">English</button>
+  </div>
+</aside>
+
+<main>
+
+  <!-- ===== ÚVOD ===== -->
+  <section id="uvod">
+    <div data-lang="cs">
+      <p class="lead">Zabývám se americkou zahraniční politikou, transatlantickými vztahy a energetickou bezpečností. Působím jako odborný asistent na Metropolitní univerzitě Praha.</p>
+      <p>Doktorát jsem obhájil v roce 2024 na Filozofické fakultě Univerzity Hradec Králové prací o zahraniční politice Nixonovy administrativy — o trojúhelníkové diplomacii a summitech v Pekingu a Moskvě v roce 1972. Odtud vede přímá linka k tomu, co mě zajímá dnes: jak se spojenectví drží pohromadě, když přestane platit to, na čem stálo.</p>
+      <div class="pull">
+        <p>Ve výzkumu pracuji s teorií ontologické bezpečnosti. Její východisko je jednoduché: státy nepotřebují jen fyzické bezpečí, ale také stabilní představu o tom, kdo jsou. Když se tahle představa naruší, chovají se často způsobem, který z hlediska čisté mocenské kalkulace vypadá iracionálně.</p>
+        <p>Proto o současné transatlantické krizi neuvažuji především jako o sporu o rozpočty a kapacity. Jde o to, čím Evropa je, když se přestane spoléhat na americkou záruku — a jak se stát chová v okamžiku, kdy si tím přestane být jistý.</p>
+      </div>
+    </div>
+    <div data-lang="en" hidden>
+      <p class="lead">I work on US foreign policy, transatlantic relations and energy security, as an assistant professor at Metropolitan University Prague.</p>
+      <p>I defended my doctorate in 2024 at the University of Hradec Králové, on the foreign policy of the Nixon administration — triangular diplomacy and the 1972 Beijing and Moscow summits. There is a direct line from that to what interests me now: how alliances hold together once the thing they were built on stops holding.</p>
+      <div class="pull">
+        <p>My research works with ontological security theory. Its starting point is simple: states need more than physical safety — they need a stable sense of who they are. When that sense is disturbed, they often behave in ways that look irrational in terms of pure power calculation.</p>
+        <p>So I do not read the current transatlantic crisis mainly as an argument about budgets and capabilities. The question is what Europe is once it stops relying on the American guarantee — and how a state behaves in the moment it stops being sure.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRO NOVINÁŘE ===== -->
+  <section id="pro-novinare">
+    <h2 data-lang="cs">Pro novináře</h2>
+    <h2 data-lang="en" hidden>For journalists</h2>
+
+    <div class="press">
+      <div data-lang="cs">
+        <p class="big"><a href="tel:+420000000000">+420 000 000 000</a> &nbsp;·&nbsp; <a href="mailto:david.marecek@mup.cz">david.marecek@mup.cz</a></p>
+        <p class="note">Komentuji česky a anglicky. Na telefon i e-mail reaguji zpravidla do hodiny; v pracovní dny jsem k dispozici pro živé vstupy.</p>
+
+        <div class="row" style="margin-top:22px">
+          <div>
+            <h4>Ke kterým tématům se vyjadřuji</h4>
+            <ul>
+              <li>Americká zahraniční i domácí politika</li>
+              <li>Transatlantické vztahy a NATO</li>
+              <li>Jednání o Ukrajině a role Spojených států</li>
+              <li>Energetická bezpečnost střední Evropy</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Ke kterým ne</h4>
+            <ul>
+              <li>Česká domácí politika</li>
+              <li>Vnitropolitické dění v jednotlivých evropských zemích</li>
+              <li>Vojensko-technické a zbrojní otázky</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="labelbox">
+          <code id="label-cs">David Mareček, odborník na americkou zahraniční politiku a transatlantické vztahy, Metropolitní univerzita Praha</code>
+          <button type="button" data-copy="label-cs">Kopírovat označení</button>
+        </div>
+        <p class="note" style="margin-top:12px">Fotografii v tiskovém rozlišení najdete <a href="foto.jpg">zde</a>.</p>
+      </div>
+
+      <div data-lang="en" hidden>
+        <p class="big"><a href="tel:+420000000000">+420 000 000 000</a> &nbsp;·&nbsp; <a href="mailto:david.marecek@mup.cz">david.marecek@mup.cz</a></p>
+        <p class="note">Available for comment in Czech and English. I normally reply within the hour and am available for live broadcast on working days.</p>
+
+        <div class="row" style="margin-top:22px">
+          <div>
+            <h4>Subjects I comment on</h4>
+            <ul>
+              <li>US foreign and domestic politics</li>
+              <li>Transatlantic relations and NATO</li>
+              <li>Ukraine negotiations and the American role</li>
+              <li>Central European energy security</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Subjects I decline</h4>
+            <ul>
+              <li>Czech domestic politics</li>
+              <li>Domestic politics of individual European states</li>
+              <li>Military-technical and armament questions</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="labelbox">
+          <code id="label-en">David Mareček, expert on US foreign policy and transatlantic relations, Metropolitan University Prague</code>
+          <button type="button" data-copy="label-en">Copy this description</button>
+        </div>
+        <p class="note" style="margin-top:12px">A print-resolution photograph is available <a href="foto.jpg">here</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VÝZKUM ===== -->
+  <section id="vyzkum">
+    <h2 data-lang="cs">Výzkum</h2>
+    <h2 data-lang="en" hidden>Research</h2>
+
+    <div class="strands" data-lang="cs">
+      <div class="strand">
+        <h3>Ontologická bezpečnost a spojenectví</h3>
+        <p>Jak státy udržují stabilní obraz sebe sama uvnitř spojenectví — a co se stane, když se o něj někdo pokusí vyjednávat.</p>
+      </div>
+      <div class="strand">
+        <h3>Americká zahraniční politika za studené války</h3>
+        <p>Nixonova administrativa, détente a trojúhelníková diplomacie; americká reakce na povstání ve východním bloku.</p>
+      </div>
+      <div class="strand">
+        <h3>Evropská jaderná ochrana</h3>
+        <p>Debata o evropském jaderném deštníku 2025–2026 čtená jako otázka postavení a účasti, nikoli jen kapacit.</p>
+      </div>
+      <div class="strand">
+        <h3>Energetická bezpečnost Česka a Slovenska</h3>
+        <p>Srovnání českých a slovenských energetických narativů od roku 2014, ve spolupráci s Lukášem Tichým a Milanem Voštou.</p>
+      </div>
+    </div>
+
+    <div class="strands" data-lang="en" hidden>
+      <div class="strand">
+        <h3>Ontological security and alliances</h3>
+        <p>How states hold on to a stable sense of themselves inside an alliance — and what happens when someone tries to negotiate over it.</p>
+      </div>
+      <div class="strand">
+        <h3>US foreign policy in the Cold War</h3>
+        <p>The Nixon administration, détente and triangular diplomacy; the American response to uprisings in the Eastern Bloc.</p>
+      </div>
+      <div class="strand">
+        <h3>European nuclear protection</h3>
+        <p>The 2025–2026 European nuclear umbrella debate read as a question of standing and participation rather than capability alone.</p>
+      </div>
+      <div class="strand">
+        <h3>Czech and Slovak energy security</h3>
+        <p>A comparison of Czech and Slovak energy security narratives since 2014, with Lukáš Tichý and Milan Vošta.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PUBLIKACE ===== -->
+  <section id="publikace">
+    <h2 data-lang="cs">Publikace</h2>
+    <h2 data-lang="en" hidden>Publications</h2>
+
+    <div data-lang="cs">
+      <ul class="pubs">
+        <li>
+          <p class="cite">Mareček, D. (2024). Zahraniční politika Spojených států vůči východnímu bloku během povstání v Polsku a Maďarsku: hledání střední cesty. <em>Studia historica Brunensia</em>, 71(1), 25–50. <a href="https://doi.org/10.5817/SHB2024-1-2">doi:10.5817/SHB2024-1-2</a></p>
+        </li>
+        <!-- DOPLŇTE přesné údaje (ročník, číslo, strany, DOI) — nechtěl jsem je vymýšlet: -->
+        <li><p class="cite">Mareček, D. <em>Politics in Central Europe</em>. <span class="todo">— doplnit název, ročník a strany</span></p></li>
+        <li><p class="cite">Mareček, D. <em>Historica Olomucensia</em>. <span class="todo">— doplnit název, ročník a strany</span></p></li>
+      </ul>
+
+    </div>
+
+    <div data-lang="en" hidden>
+      <ul class="pubs">
+        <li>
+          <p class="cite">Mareček, D. (2024). United States foreign policy towards the Eastern Bloc during the uprisings in Poland and Hungary: the search for a middle way. <em>Studia historica Brunensia</em>, 71(1), 25–50. <a href="https://doi.org/10.5817/SHB2024-1-2">doi:10.5817/SHB2024-1-2</a> (in Czech)</p>
+        </li>
+        <li><p class="cite">Mareček, D. <em>Politics in Central Europe</em>. <span class="todo">— add title, volume and pages</span></p></li>
+        <li><p class="cite">Mareček, D. <em>Historica Olomucensia</em>. <span class="todo">— add title, volume and pages</span></p></li>
+      </ul>
+
+    </div>
+  </section>
+
+  <!-- ===== MÉDIA ===== -->
+  <section id="media">
+    <h2 data-lang="cs">Média</h2>
+    <h2 data-lang="en" hidden>Media</h2>
+    <p data-lang="cs" style="color:var(--muted);font-size:16px">Výběr z komentářů pro česká a slovenská média. Aktualizováno k září 2026.</p>
+    <p data-lang="en" hidden style="color:var(--muted);font-size:16px">Selected commentary for Czech and Slovak media. Updated September 2026.</p>
+
+    <ul class="medialist">
+      <li><span class="d">2. 9. 2026</span><span class="t"><a href="https://ct24.ceskatelevize.cz/clanek/svet/budeme-postupovat-pouze-vpred-putin-chce-zrejme-eskalovat-agresi-377142">„Budeme postupovat pouze vpřed." Putin chce zřejmě eskalovat agresi</a><span class="o">ČT24</span></span></li>
+      <li><span class="d">27. 8. 2026</span><span class="t"><a href="https://ct24.ceskatelevize.cz/">Analytik David Mareček o aktuálním dění na Ukrajině</a><span class="o">ČT24 — samostatný rozhovor</span></span></li>
+      <li><span class="d">31. 7. 2026</span><span class="t"><a href="https://ct24.ceskatelevize.cz/">Trump mluví o dohodě o odzbrojení Hamásu</a><span class="o">ČT24</span></span></li>
+      <li><span class="d">17. 7. 2026</span><span class="t"><a href="https://www.irozhlas.cz/zpravy-svet/amerikanista-trump-nema-moc-na-aby-zrusil-vysilani-cnn-ale-podkopava_2607171523_vdv">Trump nemá moc na to, aby zrušil vysílání CNN, ale podkopává demokratické instituce</a><span class="o">Český rozhlas Radiožurnál · iROZHLAS</span></span></li>
+      <li><span class="d">26. 6. 2026</span><span class="t"><a href="https://www.ceskatelevize.cz/">Konference o poválečné obnově Ukrajiny</a><span class="o">Studio ČT24 — host ve studiu</span></span></li>
+      <li><span class="d">25. 6. 2026</span><span class="t"><a href="https://podcasty.seznam.cz/podcast/chutovky/386337">Vláda vs. prezident</a><span class="o">Express Novinek</span></span></li>
+      <li><span class="d">25. 5. 2026</span><span class="t"><a href="https://cnn.iprima.cz/trumpovy-otocky-s-iranem-pokracuji-mir-blizko-neni-prinesl-nerad-mini-stropnicky-512974">Trumpovy otočky s Íránem pokračují, mír blízko není</a><span class="o">CNN Prima News</span></span></li>
+      <li><span class="d">7. 5. 2026</span><span class="t"><a href="https://ct24.ceskatelevize.cz/">V Lotyšsku se zřítily dva cizí drony</a><span class="o">ČT24</span></span></li>
+      <li><span class="d">27. 4. 2026</span><span class="t"><a href="https://www.irozhlas.cz/">Útočník na Trumpa se z dříve klidného učitele radikalizoval</a><span class="o">iROZHLAS</span></span></li>
+      <li><span class="d">18. 3. 2026</span><span class="t"><a href="https://www.ceskatelevize.cz/">Význam Hormuzského průlivu · Oprava ropovodu Družba</a><span class="o">90' ČT24 — host ve studiu</span></span></li>
+      <li><span class="d">17. 3. 2026</span><span class="t"><a href="https://www.irozhlas.cz/zpravy-svet/expert-trump-se-vysmival-britanii-ted-spojence-opet-chce-evropa-v-hormuzskem_2603171523_jho">Trump se vysmíval Británii, teď spojence opět chce</a><span class="o">Český rozhlas Radiožurnál · iROZHLAS</span></span></li>
+      <li><span class="d">20. 12. 2025</span><span class="t"><a href="https://ct24.ceskatelevize.cz/clanek/svet/ukrajinci-jednali-s-americany-pokracovat-maji-i-v-sobotu-368501">Ukrajinci jednali s Američany</a><span class="o">ČT24</span></span></li>
+      <li><span class="d">16. 8. 2025</span><span class="t"><a href="https://www.novinky.cz/">Express Novinek: summit na Aljašce</a><span class="o">Novinky.cz</span></span></li>
+      <li><span class="d">9. 5. 2025</span><span class="t"><a href="https://cnn.iprima.cz/fico-zustal-na-ruske-prehlidce-zastrceny-rika-just-nejvazenejsim-ucastnikem-byla-cina-474093">Fico zůstal na moskevské přehlídce zastrčený</a><span class="o">CNN Prima News</span></span></li>
+      <li><span class="d">1. 5. 2025</span><span class="t"><a href="https://cnn.iprima.cz/trump-a-jeho-lide-jsou-proti-rusum-nezkuseni-rikaji-experti-pomuze-kyjevu-nerostna-dohoda-473299">Trump a jeho lidé jsou proti Rusům nezkušení</a><span class="o">CNN Prima News</span></span></li>
+      <li><span class="d">25. 3. 2025</span><span class="t"><a href="https://cnn.iprima.cz/">Průlom v jednáních? USA uzavřely s Ruskem i Ukrajinou dohodu</a><span class="o">CNN Prima News</span></span></li>
+      <li><span class="d">20. 1. 2025</span><span class="t"><a href="https://www.aktuality.sk/">Nová geopolitická situácia: Česko a Spojené štáty</a><span class="o">Aktuality.sk</span></span></li>
+    </ul>
+  </section>
+
+  <!-- ===== VÝUKA ===== -->
+  <section id="vyuka">
+    <h2 data-lang="cs">Výuka</h2>
+    <h2 data-lang="en" hidden>Teaching</h2>
+    <div data-lang="cs">
+      <p>Na Metropolitní univerzitě Praha učím kurzy zaměřené na globální bezpečnostní otázky, mezinárodní organizace, zahraniční politiku Spojených států a americký politický systém.</p>
+      <p>Vedu bakalářské a diplomové práce. Pokud uvažujete o práci na americké zahraniční politice, transatlantických vztazích nebo o použití teorie ontologické bezpečnosti na konkrétní případ, ozvěte se — nejlépe s odstavcem o tom, co vás na tématu zajímá.</p>
+    </div>
+    <div data-lang="en" hidden>
+      <p>At Metropolitan University Prague I teach courses on global security, international organisations, US foreign policy and the American political system.</p>
+      <p>I supervise bachelor's and master's theses. If you are considering a thesis on US foreign policy, transatlantic relations, or applying ontological security theory to a specific case, write to me — ideally with a paragraph on what draws you to the subject.</p>
+    </div>
+  </section>
+
+  <footer>
+    <span data-lang="cs">David Mareček · Metropolitní univerzita Praha · Dubečská 900/10, 100 31 Praha 10 · Poslední aktualizace: září 2026</span>
+    <span data-lang="en" hidden>David Mareček · Metropolitan University Prague · Dubečská 900/10, 100 31 Prague · Last updated September 2026</span>
+  </footer>
+
+</main>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "David Mareček",
+  "givenName": "David",
+  "familyName": "Mareček",
+  "jobTitle": "Odborný asistent",
+  "email": "mailto:david.marecek@mup.cz",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Metropolitní univerzita Praha"
+  },
+  "knowsAbout": [
+    "americká zahraniční politika",
+    "transatlantické vztahy",
+    "NATO",
+    "ontologická bezpečnost",
+    "energetická bezpečnost",
+    "studená válka"
+  ],
+  "knowsLanguage": ["cs", "en"],
+  "identifier": "https://orcid.org/0000-0002-0249-5639",
+  "sameAs": [
+    "https://orcid.org/0000-0002-0249-5639",
+    "https://cz.linkedin.com/in/davidmarecek1",
+    "https://www.mup.cz/o-univerzite/katedry/katedra-mezinarodnich-vztahu-a-evropskych-studii/"
+  ]
+}
+</script>
+
+<script id="app">
+(function () {
+  var LS = "dm-lang";
+  var btnCs = document.getElementById("btn-cs");
+  var btnEn = document.getElementById("btn-en");
+
+  function setLang(lang) {
+    var nodes = document.querySelectorAll("[data-lang]");
+    for (var i = 0; i < nodes.length; i++) {
+      nodes[i].hidden = nodes[i].getAttribute("data-lang") !== lang;
+    }
+    document.documentElement.lang = lang;
+    btnCs.setAttribute("aria-pressed", String(lang === "cs"));
+    btnEn.setAttribute("aria-pressed", String(lang === "en"));
+    try { localStorage.setItem(LS, lang); } catch (e) {}
+  }
+
+  btnCs.addEventListener("click", function () { setLang("cs"); });
+  btnEn.addEventListener("click", function () { setLang("en"); });
+
+  var start = "cs";
+  try {
+    var saved = localStorage.getItem(LS);
+    if (saved === "cs" || saved === "en") start = saved;
+    else if ((navigator.language || "").slice(0, 2) !== "cs") start = "en";
+  } catch (e) {}
+  setLang(start);
+
+  var copiers = document.querySelectorAll("[data-copy]");
+  for (var j = 0; j < copiers.length; j++) {
+    copiers[j].addEventListener("click", function (ev) {
+      var btn = ev.currentTarget;
+      var src = document.getElementById(btn.getAttribute("data-copy"));
+      var original = btn.textContent;
+      var text = src ? src.textContent.trim() : "";
+      var done = function () {
+        btn.textContent = document.documentElement.lang === "en" ? "Copied" : "Zkopírováno";
+        setTimeout(function () { btn.textContent = original; }, 1800);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, function () {});
+      }
+    });
+  }
+})();
+</script>
+
+</body>
+</html>
