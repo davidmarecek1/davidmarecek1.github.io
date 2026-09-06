@@ -87,13 +87,10 @@ a:hover{text-decoration-thickness:2px}
   font-weight:500;
 }
 .mark{
-  width:58px;height:58px;border-radius:50%;background:var(--accent-soft);
-  color:var(--accent);display:flex;align-items:center;justify-content:center;
-  font-family:"Source Serif 4",Georgia,serif;font-size:21px;font-weight:600;letter-spacing:.02em;
-  margin-bottom:18px;
+  width:78px;height:78px;border-radius:50%;background:var(--accent-soft);
+  object-fit:cover;object-position:50% 42%;display:block;
+  margin-bottom:18px;border:1px solid var(--line);
 }
-/* Fotografii vložíte takto (nahradí monogram):
-   <img class="mark" src="foto.jpg" alt="David Mareček" style="object-fit:cover"> */
 .rail h1{
   font-size:27px;font-weight:600;line-height:1.15;margin:0 0 8px;letter-spacing:-.012em;
 }
@@ -227,7 +224,7 @@ footer{
 <div class="shell">
 
 <aside class="rail">
-  <div class="mark" aria-hidden="true">DM</div>
+  <img class="mark" src="foto.jpg" width="400" height="400" alt="David Mareček">
   <h1>David&nbsp;Mareček</h1>
   <p class="role" data-lang="cs">Odborník na americkou zahraniční politiku a transatlantické vztahy</p>
   <p class="role" data-lang="en" hidden>Expert on US foreign policy and transatlantic relations</p>
@@ -239,7 +236,7 @@ footer{
   <ul class="contact">
     <li><span class="k">E-mail</span><a href="mailto:david.marecek@mup.cz">david.marecek@mup.cz</a></li>
     <!-- DOPLŇTE telefon: pro novináře je to nejdůležitější údaj na celé stránce -->
-    <li><span class="k">Telefon</span><a href="tel:+420000000000">+420 000 000 000</a></li>
+    <li><span class="k">Telefon</span><a href="tel:+420606606321">+420 606 606 321</a></li>
     <li><span class="k">ORCID</span><a href="https://orcid.org/0000-0002-0249-5639">0000-0002-0249-5639</a></li>
     <!-- DOPLŇTE odkazy: -->
     <li><span class="k">Profily</span><a href="https://www.mup.cz/o-univerzite/katedry/katedra-mezinarodnich-vztahu-a-evropskych-studii/">MUP</a> · <a href="https://cz.linkedin.com/in/davidmarecek1">LinkedIn</a> · <a href="#">Google&nbsp;Scholar</a></li>
@@ -290,7 +287,7 @@ footer{
 
     <div class="press">
       <div data-lang="cs">
-        <p class="big"><a href="tel:+420000000000">+420 000 000 000</a> &nbsp;·&nbsp; <a href="mailto:david.marecek@mup.cz">david.marecek@mup.cz</a></p>
+        <p class="big"><a href="tel:+420606606321">+420 606 606 321</a> &nbsp;·&nbsp; <a href="mailto:david.marecek@mup.cz">david.marecek@mup.cz</a></p>
         <p class="note">Komentuji česky a anglicky. Na telefon i e-mail reaguji zpravidla do hodiny; v pracovní dny jsem k dispozici pro živé vstupy.</p>
 
         <div class="row" style="margin-top:22px">
@@ -321,7 +318,7 @@ footer{
       </div>
 
       <div data-lang="en" hidden>
-        <p class="big"><a href="tel:+420000000000">+420 000 000 000</a> &nbsp;·&nbsp; <a href="mailto:david.marecek@mup.cz">david.marecek@mup.cz</a></p>
+        <p class="big"><a href="tel:+420606606321">+420 606 606 321</a> &nbsp;·&nbsp; <a href="mailto:david.marecek@mup.cz">david.marecek@mup.cz</a></p>
         <p class="note">Available for comment in Czech and English. I normally reply within the hour and am available for live broadcast on working days.</p>
 
         <div class="row" style="margin-top:22px">
@@ -403,26 +400,35 @@ footer{
     <h2 data-lang="en" hidden>Publications</h2>
 
     <div data-lang="cs">
+      <h3 style="margin:0 0 10px">Články v recenzovaných časopisech</h3>
       <ul class="pubs">
-        <li>
-          <p class="cite">Mareček, D. (2024). Zahraniční politika Spojených států vůči východnímu bloku během povstání v Polsku a Maďarsku: hledání střední cesty. <em>Studia historica Brunensia</em>, 71(1), 25–50. <a href="https://doi.org/10.5817/SHB2024-1-2">doi:10.5817/SHB2024-1-2</a></p>
-        </li>
-        <!-- DOPLŇTE přesné údaje (ročník, číslo, strany, DOI) — nechtěl jsem je vymýšlet: -->
-        <li><p class="cite">Mareček, D. <em>Politics in Central Europe</em>. <span class="todo">— doplnit název, ročník a strany</span></p></li>
-        <li><p class="cite">Mareček, D. <em>Historica Olomucensia</em>. <span class="todo">— doplnit název, ročník a strany</span></p></li>
+        <li><p class="cite">Mareček, D. (2024). Zahraniční politika Spojených států vůči východnímu bloku během povstání v Polsku a Maďarsku. Hledání střední cesty. <em>Studia historica Brunensia</em>, 71(1), 25–50. <a href="https://doi.org/10.5817/SHB2024-1-2">doi:10.5817/SHB2024-1-2</a></p></li>
+        <li><p class="cite">Mareček, D. (2023). The Path to the Unexpected Partnership of Nixon and Kissinger in 1969. <em>Historica Olomucensia</em>, (1), 35–50. ISSN 1803-9561.</p></li>
+        <li><p class="cite">Mareček, D. (2021). Bush's ‚Beyond Containment' Strategy toward the Eastern Bloc in 1989 within the US Foreign Policy Context. <em>Politics in Central Europe</em>, 17(2), 367–392. ISSN 1801-3422.</p></li>
       </ul>
 
+      <h3 style="margin:32px 0 10px">Kapitoly a příspěvky ve sbornících</h3>
+      <ul class="pubs">
+        <li><p class="cite">Mareček, D. (2022). Oficiální návštěva prezidenta George H. W. Bushe v Polsku a Maďarsku v rámci utváření politiky „beyond containment". In <em>Vita Trans Historiam</em>. ISBN 978-80-558-1928-0.</p></li>
+        <li><p class="cite">Mareček, D. Přelomový summit v Pekingu v roce 1972 v americkém a československém tisku. In <em>České, slovenské a československé dějiny 20. století XVIII</em>. ISBN 978-80-7435-918-7.</p></li>
+        <li><p class="cite">Mareček, D. Politika détente v rámci české a světové historiografie. In <em>České, slovenské a československé dějiny 20. století XVII</em>. ISBN 978-80-7435-904-0.</p></li>
+      </ul>
     </div>
 
     <div data-lang="en" hidden>
+      <h3 style="margin:0 0 10px">Peer-reviewed articles</h3>
       <ul class="pubs">
-        <li>
-          <p class="cite">Mareček, D. (2024). United States foreign policy towards the Eastern Bloc during the uprisings in Poland and Hungary: the search for a middle way. <em>Studia historica Brunensia</em>, 71(1), 25–50. <a href="https://doi.org/10.5817/SHB2024-1-2">doi:10.5817/SHB2024-1-2</a> (in Czech)</p>
-        </li>
-        <li><p class="cite">Mareček, D. <em>Politics in Central Europe</em>. <span class="todo">— add title, volume and pages</span></p></li>
-        <li><p class="cite">Mareček, D. <em>Historica Olomucensia</em>. <span class="todo">— add title, volume and pages</span></p></li>
+        <li><p class="cite">Mareček, D. (2024). Zahraniční politika Spojených států vůči východnímu bloku během povstání v Polsku a Maďarsku. Hledání střední cesty [US foreign policy towards the Eastern Bloc during the uprisings in Poland and Hungary]. <em>Studia historica Brunensia</em>, 71(1), 25–50. <a href="https://doi.org/10.5817/SHB2024-1-2">doi:10.5817/SHB2024-1-2</a></p></li>
+        <li><p class="cite">Mareček, D. (2023). The Path to the Unexpected Partnership of Nixon and Kissinger in 1969. <em>Historica Olomucensia</em>, (1), 35–50. ISSN 1803-9561.</p></li>
+        <li><p class="cite">Mareček, D. (2021). Bush's 'Beyond Containment' Strategy toward the Eastern Bloc in 1989 within the US Foreign Policy Context. <em>Politics in Central Europe</em>, 17(2), 367–392. ISSN 1801-3422.</p></li>
       </ul>
 
+      <h3 style="margin:32px 0 10px">Chapters and conference volumes</h3>
+      <ul class="pubs">
+        <li><p class="cite">Mareček, D. (2022). Oficiální návštěva prezidenta George H. W. Bushe v Polsku a Maďarsku v rámci utváření politiky „beyond containment" [President George H. W. Bush's official visit to Poland and Hungary]. In <em>Vita Trans Historiam</em>. ISBN 978-80-558-1928-0.</p></li>
+        <li><p class="cite">Mareček, D. Přelomový summit v Pekingu v roce 1972 v americkém a československém tisku [The 1972 Beijing summit in the American and Czechoslovak press]. In <em>České, slovenské a československé dějiny 20. století XVIII</em>. ISBN 978-80-7435-918-7.</p></li>
+        <li><p class="cite">Mareček, D. Politika détente v rámci české a světové historiografie [Détente in Czech and international historiography]. In <em>České, slovenské a československé dějiny 20. století XVII</em>. ISBN 978-80-7435-904-0.</p></li>
+      </ul>
     </div>
   </section>
 
