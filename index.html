@@ -132,6 +132,7 @@ p:last-child{margin-bottom:0}
   font-size:18px;line-height:1.6;
 }
 .pull p{max-width:58ch}
+.small{font-size:14.5px;color:var(--muted);line-height:1.5}
 
 /* press panel */
 .press{
@@ -204,6 +205,13 @@ p:last-child{margin-bottom:0}
 }
 .shot{margin:0 0 22px;max-width:420px}
 .shot img{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:3px}
+.badges{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;max-width:460px;margin:0 0 26px}
+.badges figure{margin:0}
+.badges img{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:3px}
+.badges figcaption{
+  font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:11.5px;line-height:1.35;
+  color:var(--faint);margin-top:6px;
+}
 .shot figcaption{
   font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:11.5px;line-height:1.35;
   color:var(--faint);margin-top:6px;
@@ -282,20 +290,20 @@ footer{
   <!-- ===== ÚVOD ===== -->
   <section id="uvod">
     <div data-lang="cs">
-      <p class="lead">Zabývám se americkou zahraniční politikou, transatlantickými vztahy a energetickou bezpečností. Působím jako odborný asistent na Metropolitní univerzitě Praha.</p>
-      <p>Doktorát jsem obhájil v roce 2024 na Filozofické fakultě Univerzity Hradec Králové prací o zahraniční politice Nixonovy administrativy — o trojúhelníkové diplomacii a summitech v Pekingu a Moskvě v roce 1972. Odtud vede přímá linka k tomu, co mě zajímá dnes: jak se spojenectví drží pohromadě, když přestane platit to, na čem stálo.</p>
+      <p class="lead">Americká zahraniční politika, transatlantické vztahy a energetická bezpečnost. Odborný asistent na Metropolitní univerzitě Praha.</p>
       <div class="pull">
-        <p>Ve výzkumu pracuji s teorií ontologické bezpečnosti. Její východisko je jednoduché: státy nepotřebují jen fyzické bezpečí, ale také stabilní představu o tom, kdo jsou. Když se tahle představa naruší, chovají se často způsobem, který z hlediska čisté mocenské kalkulace vypadá iracionálně.</p>
-        <p>Proto o současné transatlantické krizi neuvažuji především jako o sporu o rozpočty a kapacity. Jde o to, čím Evropa je, když se přestane spoléhat na americkou záruku — a jak se stát chová v okamžiku, kdy si tím přestane být jistý.</p>
+        <p>Státy nepotřebují jen fyzické bezpečí, ale i stabilní představu o tom, kdo jsou. Když se ta představa naruší, chovají se způsobem, který z hlediska mocenské kalkulace vypadá iracionálně.</p>
       </div>
+      <p style="margin-top:24px">To je východisko teorie ontologické bezpečnosti, se kterou pracuji. Současnou transatlantickou krizi proto nečtu jako spor o rozpočty a kapacity. Ptám se, čím Evropa je, když se přestane spoléhat na americkou záruku.</p>
+      <p class="small">Doktorát 2024, Univerzita Hradec Králové — zahraniční politika Nixonovy administrativy, trojúhelníková diplomacie a summity v Pekingu a Moskvě 1972.</p>
     </div>
     <div data-lang="en" hidden>
-      <p class="lead">I work on US foreign policy, transatlantic relations and energy security, as an assistant professor at Metropolitan University Prague.</p>
-      <p>I defended my doctorate in 2024 at the University of Hradec Králové, on the foreign policy of the Nixon administration — triangular diplomacy and the 1972 Beijing and Moscow summits. There is a direct line from that to what interests me now: how alliances hold together once the thing they were built on stops holding.</p>
+      <p class="lead">US foreign policy, transatlantic relations and energy security. Assistant professor at Metropolitan University Prague.</p>
       <div class="pull">
-        <p>My research works with ontological security theory. Its starting point is simple: states need more than physical safety — they need a stable sense of who they are. When that sense is disturbed, they often behave in ways that look irrational in terms of pure power calculation.</p>
-        <p>So I do not read the current transatlantic crisis mainly as an argument about budgets and capabilities. The question is what Europe is once it stops relying on the American guarantee — and how a state behaves in the moment it stops being sure.</p>
+        <p>States need more than physical safety — they need a stable sense of who they are. When that sense is disturbed, they behave in ways that look irrational in terms of pure power calculation.</p>
       </div>
+      <p style="margin-top:24px">That is the starting point of ontological security theory, which my research works with. So I do not read the current transatlantic crisis as an argument about budgets and capabilities. The question is what Europe is once it stops relying on the American guarantee.</p>
+      <p class="small">PhD 2024, University of Hradec Králové — the foreign policy of the Nixon administration, triangular diplomacy and the 1972 Beijing and Moscow summits.</p>
     </div>
   </section>
 
@@ -408,6 +416,11 @@ footer{
     <p data-lang="cs" style="color:var(--muted);font-size:16px">Vybraná vystoupení na mezinárodních konferencích v roce 2026.</p>
     <p data-lang="en" hidden style="color:var(--muted);font-size:16px">Selected papers at international conferences in 2026.</p>
 
+    <div class="badges">
+      <figure><img src="media/k1-uaces-praha.jpg" loading="lazy" width="360" height="480" alt="UACES 56th Annual Conference, Praha"><figcaption><span data-lang="cs">UACES, Univerzita Karlova, Praha, září 2026</span><span data-lang="en" hidden>UACES, Charles University, Prague, September 2026</span></figcaption></figure>
+      <figure><img src="media/k2-eisa-lisabon.jpg" loading="lazy" width="360" height="480" alt="EISA Pan-European Conference, Lisabon"><figcaption><span data-lang="cs">EISA PEC, ISCTE, Lisabon, září 2026</span><span data-lang="en" hidden>EISA PEC, ISCTE, Lisbon, September 2026</span></figcaption></figure>
+    </div>
+
     <div class="strands" data-lang="cs">
       <div class="strand">
         <h3>56. výroční konference UACES</h3>
@@ -497,23 +510,46 @@ footer{
     </div>
 
     <ul class="medialist">
-      <li><span class="d">2. 9. 2026</span><span class="t"><a href="https://ct24.ceskatelevize.cz/clanek/svet/budeme-postupovat-pouze-vpred-putin-chce-zrejme-eskalovat-agresi-377142">„Budeme postupovat pouze vpřed." Putin chce zřejmě eskalovat agresi</a><span class="o">ČT24</span></span></li>
+      <li><span class="d">3. 9. 2026</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/1096902795-studio-6/226411010100903/cast/1205719/">Eskalující konflikt mezi USA a Íránem</a><span class="o">ČT24 — Studio 6</span></span></li>
+      <li><span class="d">2. 9. 2026</span><span class="t"><a href="https://ct24.ceskatelevize.cz/clanek/svet/budeme-postupovat-pouze-vpred-putin-chce-zrejme-eskalovat-agresi-377142">„Budeme postupovat pouze vpřed.“ Putin chce zřejmě eskalovat agresi</a><span class="o">ČT24</span></span></li>
       <li><span class="d">27. 8. 2026</span><span class="t"><a href="https://ct24.ceskatelevize.cz/video/analytik-david-marecek-o-aktualnim-deni-na-ukrajine-27-8-2026-258997">Analytik David Mareček o aktuálním dění na Ukrajině</a><span class="o">ČT24 — samostatný rozhovor</span></span></li>
       <li><span class="d">31. 7. 2026</span><span class="t"><a href="https://ct24.ceskatelevize.cz/clanek/svet/rada-pro-mir-dosahla-dohody-o-odzbrojeni-hamasu-oznamil-trump-376128">Trump mluví o dohodě o odzbrojení Hamásu</a><span class="o">ČT24</span></span></li>
-      <li><span class="d">17. 7. 2026</span><span class="t"><a href="https://www.irozhlas.cz/zpravy-svet/amerikanista-trump-nema-moc-na-aby-zrusil-vysilani-cnn-ale-podkopava_2607171523_vdv">Trump nemá moc na to, aby zrušil vysílání CNN, ale podkopává demokratické instituce</a><span class="o">Český rozhlas Radiožurnál · iROZHLAS</span></span></li>
-      <li><span class="d">26. 6. 2026</span><span class="t">Konference o poválečné obnově Ukrajiny<span class="o">Studio ČT24 — host ve studiu</span></span></li>
-      <li><span class="d">25. 6. 2026</span><span class="t">Vláda vs. prezident<span class="o">Express Novinek</span></span></li>
+      <li><span class="d">17. 7. 2026</span><span class="t"><a href="https://www.irozhlas.cz/zpravy-svet/amerikanista-trump-nema-moc-na-aby-zrusil-vysilani-cnn-ale-podkopava_2607171523_vdv">Trump nemá moc na to, aby zrušil vysílání CNN, ale podkopává demokratické instituce</a><span class="o">Český rozhlas Plus · iROZHLAS</span></span></li>
+      <li><span class="d">7. 7. 2026</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/1096902795-studio-6/226411010100707/cast/1197488/">Summit NATO v Ankaře</a><span class="o">ČT24 — Studio 6</span></span></li>
+      <li><span class="d">23. 6. 2026</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/1096902795-studio-6/226411010100623/cast/1195288/">Skončilo první kolo jednání mezi USA a Íránem</a><span class="o">ČT24 — Studio 6</span></span></li>
+      <li><span class="d">17. 6. 2026</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/1096902795-studio-6/226411010100617/cast/1194129/">Dohoda mezi Spojenými státy a Íránem</a><span class="o">ČT24 — Studio 6</span></span></li>
+      <li><span class="d">10. 6. 2026</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/1096902795-studio-6/226411010100610/cast/1192779/">USA provedly nové údery na Írán</a><span class="o">ČT24 — Studio 6</span></span></li>
+      <li><span class="d">4. 6. 2026</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/1096902795-studio-6/226411010100604/cast/1191587/">Vyjednávání mezi Íránem a USA</a><span class="o">ČT24 — Studio 6</span></span></li>
       <li><span class="d">25. 5. 2026</span><span class="t"><a href="https://cnn.iprima.cz/trumpovy-otocky-s-iranem-pokracuji-mir-blizko-neni-prinesl-nerad-mini-stropnicky-512974">Trumpovy otočky s Íránem pokračují, mír blízko není</a><span class="o">CNN Prima News</span></span></li>
+      <li><span class="d">24. 5. 2026</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/10101491767-studio-ct24/226411058460524/">Memorandum s Íránem je téměř dojednané</a><span class="o">ČT24 — Studio ČT24</span></span></li>
+      <li><span class="d">7. 5. 2026</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/1096902795-studio-6/226411010100507/">Dva drony vletěly do Lotyšska, jednání mezi USA a Íránem</a><span class="o">ČT24 — Studio 6</span></span></li>
+      <li><span class="d">7. 5. 2026</span><span class="t"><a href="https://www.stvr.sk/televizia/archiv/19166/596663">Na územie Lotyšska dopadli drony</a><span class="o">STVR 24 (Slovensko)</span></span></li>
       <li><span class="d">7. 5. 2026</span><span class="t"><a href="https://ct24.ceskatelevize.cz/clanek/svet/dva-drony-vletely-do-lotysska-a-zritily-se-pise-reuters-373186">V Lotyšsku se zřítily dva cizí drony</a><span class="o">ČT24</span></span></li>
-      <li><span class="d">27. 4. 2026</span><span class="t"><a href="https://www.irozhlas.cz/zpravy-svet/utocnik-na-trumpa-se-z-drive-klidneho-ucitele-radikalizoval-rika-amerikanista_2604271402_elev">Útočník na Trumpa se z dříve klidného učitele radikalizoval</a><span class="o">iROZHLAS</span></span></li>
+      <li><span class="d">2. 5. 2026</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/10441287766-studio-6-vikend/226411010120502/cast/1185130/">Írán předložil USA nový návrh na ukončení války</a><span class="o">ČT24 — Studio 6 víkend</span></span></li>
+      <li><span class="d">27. 4. 2026</span><span class="t"><a href="https://www.irozhlas.cz/zpravy-svet/utocnik-na-trumpa-se-z-drive-klidneho-ucitele-radikalizoval-rika-amerikanista_2604271402_elev">Útočník na Trumpa se z dříve klidného učitele radikalizoval</a><span class="o">Český rozhlas Plus · iROZHLAS</span></span></li>
+      <li><span class="d">21. 4. 2026</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/1096902795-studio-6/226411010100421/">Dvoutýdenní příměří mezi USA a Íránem</a><span class="o">ČT24 — Studio 6</span></span></li>
       <li><span class="d">18. 3. 2026</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/11412378947-90-ct24/226411058130318/">Význam Hormuzského průlivu · Oprava ropovodu Družba</a><span class="o">90' ČT24 — host ve studiu</span></span></li>
       <li><span class="d">17. 3. 2026</span><span class="t"><a href="https://www.irozhlas.cz/zpravy-svet/expert-trump-se-vysmival-britanii-ted-spojence-opet-chce-evropa-v-hormuzskem_2603171523_jho">Trump se vysmíval Británii, teď spojence opět chce</a><span class="o">Český rozhlas Radiožurnál · iROZHLAS</span></span></li>
+      <li><span class="d">25. 2. 2026</span><span class="t"><a href="https://radiozurnal.rozhlas.cz/poledni-publicistika-vnitropoliticky-projev-trumpa-zdrazovani-bydleni-relikviar-9598349">Trumpův projev o stavu unie</a><span class="o">Český rozhlas Radiožurnál · Plus</span></span></li>
       <li><span class="d">20. 12. 2025</span><span class="t"><a href="https://ct24.ceskatelevize.cz/clanek/svet/ukrajinci-jednali-s-americany-pokracovat-maji-i-v-sobotu-368501">Ukrajinci jednali s Američany</a><span class="o">ČT24</span></span></li>
+      <li><span class="d">20. 12. 2025</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/10441287766-studio-6-vikend/225411010121220/cast/1159128/">USA a Ukrajina opět jednají o mírovém plánu</a><span class="o">ČT24 — Studio 6 víkend</span></span></li>
+      <li><span class="d">21. 11. 2025</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/1096902795-studio-6/225411010101121/cast/1152486/">Americký návrh mírového plánu na Ukrajině</a><span class="o">ČT24 — Studio 6</span></span></li>
+      <li><span class="d">18. 10. 2025</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/10441287766-studio-6-vikend/225411010121018/cast/1145450/">Trump a Zelenskyj jednali v Bílém domě</a><span class="o">ČT24 — Studio 6 víkend</span></span></li>
+      <li><span class="d">26. 9. 2025</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/1096902795-studio-6/225411010100926/cast/1140964/">Trump nepovolí anexi Západního břehu</a><span class="o">ČT24 — Studio 6</span></span></li>
+      <li><span class="d">11. 9. 2025</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/1096902795-studio-6/225411010100911/cast/1137220/">Ruské drony nad polským územím</a><span class="o">ČT24 — Studio 6</span></span></li>
+      <li><span class="d">27. 8. 2025</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/1096902795-studio-6/225411010100827/cast/1134216/">Aktuální dění v USA</a><span class="o">ČT24 — Studio 6</span></span></li>
       <li><span class="d">16. 8. 2025</span><span class="t"><a href="https://www.novinky.cz/clanek/podcasty-express-express-novinek-vysledky-summitu-na-aljasce-40534401">Express Novinek: summit na Aljašce</a><span class="o">Novinky.cz</span></span></li>
+      <li><span class="d">14. 8. 2025</span><span class="t"><a href="https://joj24.noviny.sk/rozhovory-joj24/1095590-rozhovory-24-s-analytikom-o-samite-trump-putin-ide-o-tajomne-stretnutie">Rozhovory 24 s analytikom o samite Trump–Putin</a><span class="o">JOJ 24 (Slovensko)</span></span></li>
+      <li><span class="d">13. 8. 2025</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/1096902795-studio-6/225411010100813/cast/1131832/">Setkání Trumpa a Putina na Aljašce</a><span class="o">ČT24 — Studio 6</span></span></li>
+      <li><span class="d">23. 7. 2025</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/10101491767-studio-ct24/225411058440722/">Rusko-ukrajinská jednání o příměří</a><span class="o">ČT24 — Studio ČT24</span></span></li>
+      <li><span class="d">14. 6. 2025</span><span class="t"><a href="https://www.youtube.com/watch?v=Xv5taxWX8As">NATO and EU, Ukraine's minority issue</a><span class="o">Global Digest Media</span></span></li>
+      <li><span class="d">3. 6. 2025</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/1096902795-studio-6/225411010100603/cast/1119655/">Rozhovory Ukrajiny a Ruska v Istanbulu</a><span class="o">ČT24 — Studio 6</span></span></li>
       <li><span class="d">9. 5. 2025</span><span class="t"><a href="https://cnn.iprima.cz/fico-zustal-na-ruske-prehlidce-zastrceny-rika-just-nejvazenejsim-ucastnikem-byla-cina-474093">Fico zůstal na moskevské přehlídce zastrčený</a><span class="o">CNN Prima News</span></span></li>
       <li><span class="d">1. 5. 2025</span><span class="t"><a href="https://cnn.iprima.cz/trump-a-jeho-lide-jsou-proti-rusum-nezkuseni-rikaji-experti-pomuze-kyjevu-nerostna-dohoda-473299">Trump a jeho lidé jsou proti Rusům nezkušení</a><span class="o">CNN Prima News</span></span></li>
       <li><span class="d">25. 3. 2025</span><span class="t"><a href="https://cnn.iprima.cz/prulom-v-jednanich-usa-uzavrely-dohodu-s-ruskem-i-ukrajinou-zakazuje-utoky-na-energetiku-469860">Průlom v jednáních? USA uzavřely s Ruskem i Ukrajinou dohodu</a><span class="o">CNN Prima News</span></span></li>
-      <li><span class="d">20. 1. 2025</span><span class="t"><a href="https://www.aktuality.sk/clanok/qejqAo1/nova-geopoliticka-situacia-cesko-a-spojene-staty-co-ocakava-amerikanista-david-marecek/">Nová geopolitická situácia: Česko a Spojené štáty</a><span class="o">Aktuality.sk</span></span></li>
+      <li><span class="d">5. 3. 2025</span><span class="t"><a href="https://www.ceskatelevize.cz/porady/1096902795-studio-6/225411010100305/cast/1100609/">Prezident Trump vystoupil před Kongresem</a><span class="o">ČT24 — Studio 6</span></span></li>
+      <li><span class="d">20. 1. 2025</span><span class="t"><a href="https://www.aktuality.sk/clanok/qejqAo1/nova-geopoliticka-situacia-cesko-a-spojene-staty-co-ocakava-amerikanista-david-marecek/">Nová geopolitická situácia: Česko a Spojené štáty</a><span class="o">Aktuality.sk (Slovensko)</span></span></li>
+      <li><span class="d">20. 1. 2025</span><span class="t"><a href="https://www.teraz.sk/zahranicie/marecek-trump-moze-cesku-priniest/850504-clanok.html">Mareček: Trump môže Česku priniesť aj výhody, je však nevyspytateľný</a><span class="o">Teraz.sk (Slovensko)</span></span></li>
     </ul>
   </section>
 
